@@ -7,15 +7,6 @@
     border-radius: 0.2em;
 }
 
-.showNav {
-    height: 0.8em;
-    width: 1.25em;
-    display: block;
-    border-top: 0.2em solid white;
-    border-bottom: 0.2em solid white;
-    border-radius: 0.2em;
-}
-
 body {
     display: grid;
     grid-template-columns: 100%;
@@ -29,6 +20,7 @@ body {
     background-color: #C9DAEA;
 
 }
+
 .showNav::before {
     content: '';
     position: absolute;
