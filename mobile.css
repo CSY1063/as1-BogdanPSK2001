@@ -5,6 +5,12 @@
     border-top: 0.2em solid white;
     border-bottom: 0.2em solid white;
     align-items: center;
+    transition: transform 0.3s ease-in; 
+}
+
+.showNav:target {
+    transform: translate(0, -100%);
+
 }
 
 body {
