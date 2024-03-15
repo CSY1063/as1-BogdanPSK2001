@@ -7,6 +7,7 @@ header {
 
 nav {
     background-color: #00b295;
+    grid-area: nav;
 }
 
 main {
@@ -35,7 +36,8 @@ footer {
 }
 
 nav ul {
-    display: none;
+    display: flex;
+    justify-content: center;
     justify-content: space-evenly;
     margin: 2em;
     list-style: none;
@@ -75,25 +77,26 @@ nav>ul>li {
 
 nav ul ul {
     position: absolute;
-    display: none;
+    display: block;
     /* change from block to none */
     background-color: #00b295;
     width: 100%;
-    padding: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
 }
 
 nav>ul>li:hover ul {
-    display: block;
+    opacity: 1;
 }
 
 nav ul ul li:hover {
-    background-color: #191516;
+    opacity: 1;
 }
 
 nav ul ul {
     position: absolute;
     display: block;
-    background-color: green;
+    background-color: #00b295;
     width: 100%;
     padding: 0;
     opacity: 0;
@@ -101,4 +104,5 @@ nav ul ul {
 
 nav>ul>li:hover ul {
     opacity: 1;
+    display: block;
 }
