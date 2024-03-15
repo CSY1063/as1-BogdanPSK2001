@@ -11,6 +11,12 @@ input[type="submit"] {
     grid-column: 2;
 }
 
+input[type="radio"] {
+    display: inline-block;
+    width: auto;
+    padding: 0.6;
+}
+
 form {
     display: grid;
     gap: 1.5em;
