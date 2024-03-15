@@ -35,15 +35,6 @@ footer {
     padding: 0.5em;
 }
 
-nav ul {
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-    margin: 2em;
-    list-style: none;
-    text-align: center;
-}
-
 nav ul li a {
     color: #03f7eb;
     text-decoration: none;
@@ -53,56 +44,17 @@ nav ul li a {
     font-weight: bold;
 }
 
-a:hover {
-    color: red;
-}
-
-main h1 {
-    font-weight: bold;
-}
-
 main,
 aside {
     padding: 1em;
 }
 
-nav {
-    background-color: #00b295
-}
-
-nav>ul>li {
-    position: relative;
-    width: 100%;
-}
-
-nav ul ul {
-    position: absolute;
-    display: block;
-    /* change from block to none */
-    background-color: #00b295;
-    width: 100%;
-    opacity: 0;
-    transition: opacity 0.5s ease-in;
-}
-
-nav>ul>li:hover ul {
-    opacity: 1;
-}
-
-nav ul ul li:hover {
-    opacity: 1;
-}
-
-nav ul ul {
-    position: absolute;
-    display: block;
-    background-color: #00b295;
-    width: 100%;
-    padding: 0;
-    opacity: 0;
-}
-
-nav>ul>li:hover ul {
-    opacity: 1;
-    display: block;
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    list-style: none;
+    padding: 0.6em;
+    margin: 2em; 
+ 
 }
