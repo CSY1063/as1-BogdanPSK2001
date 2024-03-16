@@ -10,14 +10,6 @@ nav {
     grid-area: nav;
 }
 
-main {
-    background-color: #C9DAEA;
-    color: #191516;
-    grid-area: main;
-    display: flex;
-    justify-content: space-between;
-}
-
 aside {
     background-color: #C9DAEA;
     grid-area: aside;
@@ -60,34 +52,42 @@ nav ul {
 .circle {
     width: 10em;
     height: 10em;
-    background-color: red;
-    border-radius: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    animation: rotate 10s infinite; 
+    top: 50%;
+    left: 50%;
+    position: relative
+    transform: translate(50%,50%);
+}
+.circle img {
+    width: 100%; 
+    height: auto;
+    border-radius: 50%; 
+    margin: auto;
+    grid-area: main;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
 }
 
-@keyframes move_the_circle {
-    0% {}
-
-    50% {}
-
-    100% {}
-}
-
-@keyframes move_the_circle {
+@keyframes rotate {
     0% {
-        transform: translate(0, 0);
-        /* Starting position */
+        transform: rotate(0deg);
     }
-
-    50% {
-        transform: translate(90vw, 80vh);
-        width: 5em;
-        height: 5em;
-        background-color: blue;
-    }
-
     100% {
-        transform: translate(0, 0);
-        width: 10em;
-        height: 10em;
+        transform: rotate(360deg);
     }
+}
+main {
+    background-color: #C9DAEA;
+    color: #191516;
+    grid-area: main;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    padding: 2em; 
+    height: 80vh; 
 }
