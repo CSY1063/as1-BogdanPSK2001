@@ -153,9 +153,8 @@ nav>ul>li {
     left: 50%;
     right: 30%;
     animation: none;
-    position: absolute; 
-    transform: translate(-50%, -50%); 
 }
+
 main {
     grid-area: main;
     display: flex;
@@ -164,13 +163,5 @@ main {
     padding: 20% 17%;
     height: 40vh;
     width: 90%;
-}
-footer {
-    background-color: #191516;
-    color: #C9DAEA;
-    grid-area: footer;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2em; /* Increase padding to create space */
 }
 
