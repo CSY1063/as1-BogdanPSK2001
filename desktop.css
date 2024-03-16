@@ -62,12 +62,12 @@ nav ul ul li:hover {
     width: 24em;
     height: 24em;
     border-radius: 50%;
-    animation: rotate 10s infinite linear;
     align-items: center; 
     justify-content: center;
     display: flex; 
     margin-left: 52%;
     margin-right: auto;
+    position: relative;
 }
 
 @keyframes rotate {
@@ -86,4 +86,17 @@ nav ul ul li:hover {
     align-items: center; 
     justify-content: center;
     left: 50%;
+    animation: rotate 10s infinite linear;
+    position: absolute;
+    transform: translate(-50%,-50%);
 }
+
+footer {
+    background-color: #191516;
+    color: #C9DAEA;
+    grid-area: footer;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em; 
+}
+

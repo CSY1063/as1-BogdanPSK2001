@@ -62,4 +62,43 @@ nav ul {
     list-style: none;
     padding: 0.6em;
 }
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 2em;
+    text-align: center;
+}
 
+.bio {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+.tagline {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1.5em;
+}
+
+.welcome {
+    font-size: 2em;
+    font-weight: bold;
+    color: #00b295;
+    margin-bottom: 1.5em;
+}
+
+.about-me {
+    font-size: 1.1em;
+    margin-top: 1.5em;
+}
+.text-overlay {
+    position: absolute;
+    bottom: 0; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
