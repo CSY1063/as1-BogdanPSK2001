@@ -162,3 +162,23 @@ main {
     height: 40vh;
     width: 90%;
 }
+
+/* code for forms */
+
+form {
+    margin-left: -20%; 
+    margin-right: -20%;
+    margin-top: -10%;
+}
+
+
+label {
+    text-align: left;
+    margin-right: 20%;
+    text-align: left;
+}
+
+#message {
+    width: 90%;
+    margin-top: 30%;
+}

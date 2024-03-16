@@ -28,32 +28,20 @@
 
     <main>
         <form action="mailto:bogdanpalcau02@gmail.com" method="get">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name.." required>
 
-            <label for="username">Username:</label>
-            <input type="text" name="username" id="username" placeholder="Enter your username.." required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email.." required>
 
-            <label for="country">Country:</label>
-            <select name="country" id="country">
-                <option value="UK">United Kingdom</option>
-                <option value="US">United States</option>
-                <option value="DE">Germany</option>
-            </select>
-
-            <label for="terms">Accept T&C:</label>
-            <input type="checkbox" name="terms&conditions" value="ticked" id="terms" required>
-
-            <label for="radio1">Age 10-20</label>
-            <input type="radio" name="age" value="10-20" id="radio1">
-            <label for="radio2">Age 20-30</label>
-            <input type="radio" name="age" value="20-30" id="radio2">
-            <label for="radio3">Age 30-50</label>
-            <input type="radio" name="age" value="30-50" id="radio3">
+            <label for="subject">Subject:</label>
+            <input type="text" name="subject" id="subject" placeholder="Enter your message.." required>
 
             <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message..." required></textarea>
 
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message here.." required></textarea>
-
-            <input type="submit" value="Submit">
+            <input type="submit" value="Send Message">
+   
         </form>
     </main>
 

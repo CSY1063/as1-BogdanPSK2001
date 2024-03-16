@@ -21,7 +21,6 @@ main h1 {
 
 nav {
     background-color: #00b295;
-    width: 100%;
 }
 
 nav>ul>li {
@@ -67,6 +66,7 @@ nav ul ul li:hover {
     justify-content: center;
     display: flex; 
     margin-left: 52%;
+    margin-right: auto;
 }
 
 @keyframes rotate {
@@ -84,5 +84,5 @@ nav ul ul li:hover {
     border-radius: 50%;
     align-items: center; 
     justify-content: center;
-    left; 50%;
+    left: 50%;
 }
