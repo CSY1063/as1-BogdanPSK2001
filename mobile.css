@@ -127,7 +127,6 @@ nav>ul>li {
     height: 10em;
     margin-top: 3em;
     border-radius: 50%;
-    animation: rotate 10s infinite linear;
     align-items: center; 
     justify-content: center;
     display: flex; 
@@ -152,6 +151,7 @@ nav>ul>li {
     justify-content: center;
     left: 50%;
     right: 30%;
+    animation: rotate 10s infinite linear;
 }
 main {
     grid-area: main;

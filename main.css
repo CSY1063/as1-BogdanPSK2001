@@ -62,4 +62,34 @@ nav ul {
     list-style: none;
     padding: 0.6em;
 }
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 2em;
+    text-align: center;
+}
+
+.welcome {
+    font-size: 2em;
+    font-weight: bold;
+    color: #00b295;
+    margin-bottom: 1.5em;
+}
+
+.tagline {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1.5em;
+}
+
+.bio {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+.about-me {
+    font-size: 1.1em;
+    margin-top: 1.5em;
+}
 

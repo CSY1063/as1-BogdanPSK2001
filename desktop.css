@@ -62,7 +62,6 @@ nav ul ul li:hover {
     width: 24em;
     height: 24em;
     border-radius: 50%;
-    animation: rotate 10s infinite linear;
     align-items: center; 
     justify-content: center;
     display: flex; 
@@ -86,4 +85,5 @@ nav ul ul li:hover {
     align-items: center; 
     justify-content: center;
     left: 50%;
+    animation: rotate 10s infinite linear;
 }
