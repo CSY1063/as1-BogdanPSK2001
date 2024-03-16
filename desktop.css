@@ -11,6 +11,12 @@ body {
     font-family: 'Montserrat', sans-serif;
 
 }
+aside {
+    background-color: #C9DAEA;
+    grid-area: aside;
+    padding: 1em;
+    margin-top: 5em; /* Adjust this value as needed */
+}
 
 a:hover {
     color: red;
@@ -67,6 +73,7 @@ nav ul ul li:hover {
     display: flex; 
     margin-left: 52%;
     margin-right: auto;
+    flex-direction: column; 
 }
 
 @keyframes rotate {
@@ -86,4 +93,56 @@ nav ul ul li:hover {
     justify-content: center;
     left: 50%;
     animation: rotate 10s infinite linear;
+}
+.MainText {
+    max-width: 800px;
+    margin: auto;
+    padding: 2em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.welcome {
+    font-size: 2em;
+    font-weight: bold;
+    color: #00b295;
+    margin-bottom: 1.5em;
+}
+
+.tagline {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1.5em;
+}
+
+.bio {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+.about-me {
+    font-size: 1.1em;
+    margin-top: 1.5em;
+}
+
+.circle.MainText {
+    text-align: center;
+    margin-top: 1em;
+}
+footer {
+    background-color: #191516;
+    color: #C9DAEA;
+    grid-area: footer;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5em; 
+    margin-top: 15em; 
+}
+main {
+    grid-area: main;
+    padding: 1em;
+    margin-top: 16em; 
+    margin-right: 0%;
+    margin-left: -25%;
 }

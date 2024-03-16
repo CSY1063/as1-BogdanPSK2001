@@ -24,13 +24,6 @@ nav {
     grid-area: nav;
 }
 
-aside {
-    background-color: #C9DAEA;
-    grid-area: aside;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
 
 footer {
     background-color: #191516;
@@ -50,46 +43,11 @@ nav ul li a {
     font-weight: bold;
 }
 
-main,
-aside {
-    padding: 1em;
-}
-
 nav ul {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     list-style: none;
     padding: 0.6em;
-}
-.container {
-    max-width: 800px;
-    margin: auto;
-    padding: 2em;
-    text-align: center;
-}
-
-.welcome {
-    font-size: 2em;
-    font-weight: bold;
-    color: #00b295;
-    margin-bottom: 1.5em;
-}
-
-.tagline {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 1.5em;
-}
-
-.bio {
-    font-size: 1.2em;
-    margin-bottom: 1.5em;
-}
-
-.about-me {
-    font-size: 1.1em;
-    margin-top: 1.5em;
 }
 
