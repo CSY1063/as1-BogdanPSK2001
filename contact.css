@@ -1,51 +1,52 @@
 form {
     display: grid;
     gap: 1.5em;
-    margin-top: 100em; /* Adjust top margin as needed */
+    margin-top: 10em; 
     margin: 2%;
     padding: 0.2em;
-    width: 50%; /* Adjust width as needed */
-    margin: auto; /* Center the form horizontally */
+    width: 50%; 
+    margin: auto; 
     margin-right: 17em;
     text-align: left;
     align-items: left;
+    margin-top: -10%;
+    margin-left: 35%;
 }
 
-/* Adjustments for form fields */
 input[type="text"],
 input[type="email"],
 input[type="submit"],
 textarea {
     width: 100%;
     padding: 0.1em;
-    box-sizing: border-box; /* Ensure padding is included in the width */
-    border: 70% solid #ccc; /* Add border for input fields */
-    border-radius: 5px; /* Add rounded corners */
+    box-sizing: border-box; 
+    border: 70% solid #ccc; 
+    border-radius: 5px; 
 }
 
-/* Adjustments for submit button */
+
 input[type="submit"] {
-    grid-column: 2; /* Make submit button full width */
-    background-color: #00b295; /* Change button background color */
-    color: #fff; /* Change button text color */
-    border: none; /* Remove button border */
-    cursor: pointer; /* Change cursor to pointer on hover */
+    grid-column: 2; 
+    background-color: #00b295; 
+    color: #fff; 
+    border: none; 
+    cursor: pointer; 
     transition: background-color 0.3s ease; /* Add transition effect */
 }
 
 input[type="submit"]:hover {
-    background-color: #008077; /* Darken button background color on hover */
+    background-color: #008077; 
 }
 
-/* Adjustments for labels */
+
 label {
     display: block;
     font-weight: bold;
     padding: 0.5em;
-    text-align: left; /* Align labels to the left */
+    text-align: left; 
 }
 
-/* Adjustments for textarea */
+
 textarea {
-    resize: vertical; /* Allow vertical resizing */
+    resize: vertical; 
 }

@@ -242,3 +242,55 @@ main {
     width: 80%;
     margin-top: 30em;
 }
+form {
+    display: grid;
+    gap: 2em;
+    margin: 30% auto; /* Center the form vertically */
+    padding: 1em; /* Add padding for better spacing */
+    width: 80%; /* Adjust width to fit smaller screens */
+    max-width: 300px; /* Limit maximum width to prevent stretching on larger screens */
+    margin-top: 30%;
+    margin-left: 20%;
+    margin: 30%;
+}
+
+/* Adjustments for form fields */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Make input fields full width */
+    padding: 0.8em; /* Adjust padding for touch-friendly input fields */
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1em; /* Add spacing between form fields */
+}
+
+/* Adjustments for submit button */
+input[type="submit"] {
+    width: 100%; /* Make submit button full width */
+    padding: 1em; /* Adjust padding for touch-friendly buttons */
+    background-color: #00b295;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #008077;
+}
+
+/* Adjustments for labels */
+label {
+    display: block;
+    font-weight: bold;
+    padding: 0.5em 0; /* Add vertical padding for labels */
+    text-align: left;
+}
+
+/* Adjustments for textarea */
+textarea {
+    width: 100%; /* Make textarea full width */
+    resize: vertical; /* Allow vertical resizing */
+}
