@@ -9,7 +9,6 @@ body {
         "footer footer";
     background-color: #C9DAEA;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 a:hover {
@@ -58,6 +57,7 @@ nav>ul>li:hover ul {
 nav ul ul li:hover {
     background-color: black;
 }
+
 .circle {
     width: 24em;
     height: 24em;
@@ -67,10 +67,9 @@ nav ul ul li:hover {
     display: flex; 
     margin-left: 52%;
     margin-right: auto;
-    position: relative;
 }
 
-@keyframes rotate {
+@keyframes rotate-desktop {
     0% {
         transform: rotate(0deg);
     }
@@ -83,12 +82,7 @@ nav ul ul li:hover {
     width: 80%;
     height: auto;
     border-radius: 50%;
-    align-items: center; 
-    justify-content: center;
-    left: 50%;
-    animation: rotate 10s infinite linear;
-    position: absolute;
-    transform: translate(-50%,-50%);
+    animation: rotate-desktop 10s infinite linear;
 }
 
 footer {
@@ -99,4 +93,3 @@ footer {
     align-items: center;
     padding: 2em; 
 }
-
