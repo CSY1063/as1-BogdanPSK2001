@@ -4,7 +4,8 @@ body {
     grid-template-rows: auto;
     grid-template-areas: "header header"
         "nav nav"
-        "main aside"
+        "main main"
+        "aside aside"
         "footer footer";
     background-color: #C9DAEA;
 
@@ -19,7 +20,8 @@ main h1 {
 }
 
 nav {
-    background-color: #00b295
+    background-color: #00b295;
+    width: 100%;
 }
 
 nav>ul>li {
@@ -55,4 +57,32 @@ nav>ul>li:hover ul {
 
 nav ul ul li:hover {
     background-color: black;
+}
+.circle {
+    width: 24em;
+    height: 24em;
+    border-radius: 50%;
+    animation: rotate 10s infinite linear;
+    align-items: center; 
+    justify-content: center;
+    display: flex; 
+    margin-left: 52%;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.circle img {
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    align-items: center; 
+    justify-content: center;
+    left; 50%;
 }
