@@ -296,7 +296,7 @@ a:hover {
 }
 
 .hikingbitmoji {
-    position: absolute;
+    position: absolute;                 /* bitmoji code for site report desktop */
     top: 4em; 
     left: 50%;
     transform: translateX(-60%);
@@ -306,4 +306,20 @@ a:hover {
     margin-top: 12em;
     margin-left: 2em;
     height: auto; 
+}
+
+.text-section {
+    width: 50%; 
+    margin: 0 auto; 
+    text-align: left; 
+    font-size: 1.2em; 
+    line-height: 1.6;          /* desktop optimisation for site report*/
+    margin-top: -5em;
+    margin-bottom: 10em;
+}
+
+.text-section h2 {
+    font-size: 1.5em; 
+    margin-left: 15em;
+    text-align: center;
 }
