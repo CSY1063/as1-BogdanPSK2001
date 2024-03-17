@@ -222,8 +222,8 @@ footer {
     grid-area: footer;
     justify-content: space-between;
     align-items: center;
-    padding: 10em; 
-    margin-top: 10em; 
+    padding: 3em; 
+    margin-top: 5em; 
 }
 aside {
     background-color: #C9DAEA;
@@ -245,13 +245,12 @@ main {
 form {
     display: grid;
     gap: 2em;
-    margin: 30% auto; /* Center the form vertically */
+    margin: 5% auto; /* Center the form vertically */
     padding: 1em; /* Add padding for better spacing */
     width: 80%; /* Adjust width to fit smaller screens */
     max-width: 300px; /* Limit maximum width to prevent stretching on larger screens */
-    margin-top: 30%;
-    margin-left: 20%;
-    margin: 30%;
+    margin-left: -20%;
+    margin-top: -190%; /* Adjust the margin-top value */
 }
 
 /* Adjustments for form fields */
