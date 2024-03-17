@@ -215,11 +215,12 @@ a:hover {
 }
 
 .contact-info {
-    margin-top: -25em; 
+    margin-top: -30em; 
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     color: #333; 
+    margin-left: 30em;
 }
 
 .contact-info p {
