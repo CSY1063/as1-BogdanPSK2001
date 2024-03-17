@@ -147,6 +147,7 @@ main {
     margin-left: -25%;
 }
 
+
 input[type="submit"]:hover {
     background-color: #00807e;
 }
@@ -226,4 +227,47 @@ a:hover {
 .contact-info .gmail-logo {
     width: 20px;
     vertical-align: middle;
+}
+/* project CSS code for desktop */
+
+.project {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Display 2 projects per row */
+    gap: 1em; /* Adjust the gap as needed */
+    text-align: center;
+    margin: 0 auto;
+    max-width: 80%;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 30%; /* Adjust the left margin */
+}
+
+.project:nth-child(odd) {
+    margin-top: 2em; /* Adjust margin top for diagonal positioning */
+}
+
+.project p {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.project h2 {
+    color: #191516;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 0; /* Remove bottom margin */
+}
+
+.project img {
+    max-width: 40%;
+    height: auto;
+    margin-bottom: 1em; /* Adjust margin as needed */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-description {
+    grid-column: span 2; /* Span across both columns */
+    text-align: center;
+    margin-top: 1em; /* Adjust top margin */
+    left: 90%;
 }

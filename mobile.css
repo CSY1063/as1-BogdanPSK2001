@@ -315,7 +315,7 @@ footer {
 }
 
 .main-content {
-    flex: 1; /* This ensures that the main content takes up remaining space */
+    flex: 1; 
 }
 
 .contact-info {
@@ -323,6 +323,37 @@ footer {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     color: #333; 
-    margin-top: 60em; /* Adjust as needed */
-    margin-bottom: -100em; /* Adjust as needed */
+    margin-top: 60em; 
+    margin-bottom: -100em; 
+}
+/* mobile project optimisation */
+
+.project {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2em; 
+    text-align: center;
+    margin: 0 auto;
+    max-width: 90%; 
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -150%;
+}
+
+.project p {
+    margin-top: 0.5em; 
+    margin-bottom: 1em; 
+}
+
+.project h2 {
+    color: #191516;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em; 
+    margin-top: 0; 
+    margin-bottom: 0.5em; 
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1em;
 }
