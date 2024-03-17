@@ -302,22 +302,27 @@ footer {
     padding: 1em; 
     margin-top: 8em; 
 }
-.contact-info {
-    margin-top: 40em; /* Adjust margin to position it underneath the form */
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.9em;
-    color: #333;
-    position: relative; /* Add position relative */
-    z-index: 3; /* Add a higher z-index */
-}
 
-.contact-info p {
-    margin-bottom: 0.5em; /* Adjust margin for spacing */
-    font-weight: 500;
-}
 
 .contact-info .gmail-logo {
     width: 15px;
     vertical-align: middle;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content {
+    flex: 1; /* This ensures that the main content takes up remaining space */
+}
+
+.contact-info {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: #333; 
+    margin-top: 60em; /* Adjust as needed */
+    margin-bottom: -100em; /* Adjust as needed */
 }
