@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="main.css" media="screen">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 800px)">
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 800px)">
+</head>
+<!-- these links are used to load the right layout for the device you are in. -->
+
+<body id="clicked">
+    <header>
+        <a href="#clicked" class="on showNav"></a>
+        <a href="#" class="off showNav"></a>
+        <h1>Homepage</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li>
+                <a href="#">More</a>
+                <ul> <!-- Submenu starts here -->
+                    <li><a href="project.html">Project</a></li>
+                    <li><a href="videoDemo.html">Video demo</a></li>
+                    <li><a href="sitereport.html">Site Report</a></li>
+                </ul> <!-- Submenu ends here -->
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/cW4_PS7EK9A?si=NmUMEEkJ5bsr0tq3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </main>
+    <aside>
+    </aside>
+    <footer>
+        <p>&copy; Bogdan Palcau 2024</p>
+    </footer>
+</body>
+
+</html>
