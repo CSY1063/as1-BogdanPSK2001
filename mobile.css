@@ -245,13 +245,13 @@ main {
 form {
     display: grid;
     gap: 2em;
-    margin: 5% auto; 
+    margin: auto; 
     padding: 1em;
     width: 80%; 
     max-width: 300px; 
-    margin-left: -20%;
-    margin-top: -190%; 
+    margin-top: -10em; 
 }
+
 
 
 input[type="text"],
@@ -303,21 +303,29 @@ footer {
     margin-top: 8em; 
 }
 .contact-info {
-    margin-top: 40em; /* Adjust margin to position it underneath the form */
+    margin-top: 2em; 
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.9em;
-    color: #333;
-    position: relative; /* Add position relative */
-    z-index: 3; /* Add a higher z-index */
+    font-size: 1em;
+    color: #333; 
 }
 
 .contact-info p {
-    margin-bottom: 0.5em; /* Adjust margin for spacing */
-    font-weight: 500;
+    margin-bottom: 1em;
+    font-weight: 500; 
 }
 
 .contact-info .gmail-logo {
-    width: 15px;
+    width: 20px;
     vertical-align: middle;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-info {
+    order: 1;
+    margin-top: 2em; 
 }
