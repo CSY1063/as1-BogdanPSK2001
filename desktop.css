@@ -1,6 +1,6 @@
 body {
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: auto;
     grid-template-rows: auto;
     grid-template-areas: "header header"
         "nav nav"
@@ -145,6 +145,7 @@ main {
     margin-top: 16em; 
     margin-right: 0%;
     margin-left: -25%;
+
 }
 
 
@@ -160,7 +161,6 @@ form {
     margin: auto; 
     margin-right: 5em;
     text-align: left;
-    align-items: left;
     margin-top: -15em;
     margin-left: 20%;
 }
@@ -172,7 +172,7 @@ textarea {
     width: 100%;
     padding: 0.1em;
     box-sizing: border-box; 
-    border: 80% solid #ccc; 
+    border: 0.1em solid #ccc; 
     border-radius: 5px; 
 }
 
@@ -228,46 +228,33 @@ a:hover {
     width: 20px;
     vertical-align: middle;
 }
-/* project CSS code for desktop */
 
 .project {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Display 2 projects per row */
-    gap: 1em; /* Adjust the gap as needed */
-    text-align: center;
-    margin: 0 auto;
-    max-width: 80%;
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 30%; /* Adjust the left margin */
+    grid-template-columns: 1fr 1fr; 
+ margin-left: 20vw;
+ margin-right: 20vw;
+ border: 1px solid black; 
+ text-align: center; 
+ column-gap: 1em;
+ row-gap: 1em;
+ border-radius: 0.5em;
 }
 
-.project:nth-child(odd) {
-    margin-top: 2em; /* Adjust margin top for diagonal positioning */
+.project-item {
+    border: 1px solid black;
+    padding: 2em;
+    margin-bottom: 2em; 
+    text-align: center; 
 }
 
-.project p {
-    margin-top: 0.5em;
-    margin-bottom: 1em;
-}
-
-.project h2 {
-    color: #191516;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.2em;
-    margin-bottom: 0; /* Remove bottom margin */
-}
-
-.project img {
-    max-width: 40%;
+.project-item img {
+    max-width: 100%; 
     height: auto;
-    margin-bottom: 1em; /* Adjust margin as needed */
-    margin-left: auto;
-    margin-right: auto;
+    display: block;
+    margin-bottom: 1em; 
 }
 
-.project-description {
-    grid-column: span 2; /* Span across both columns */
-    text-align: center;
-    margin-top: 1em; /* Adjust top margin */
-    left: 90%;
+.project-item p {
+    margin-bottom: 0; 
 }
