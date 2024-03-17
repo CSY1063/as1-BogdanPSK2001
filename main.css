@@ -70,3 +70,7 @@ nav ul {
 .project-item p {
     margin-bottom: 0; 
 }
+
+.text-section img {
+    max-width: 70%;
+}

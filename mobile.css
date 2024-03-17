@@ -178,36 +178,34 @@ label {
 
 
 
-.MainText {
-    max-width: 800px;
+h1 {
+    max-width: 90%; /* Adjust width for smaller screens */
     margin: auto;
-    padding: 2em;
+    padding: 1.25em; 
     text-align: center;
-    margin-top: 1em;
+    margin-top: 0; /* Remove negative margin-top */
 }
 
-.welcome {
-    font-size: 2em;
+h2 {
+    font-size: 1.5em; /* Decrease font size */
     font-weight: bold;
     color: #00b295;
-    margin-bottom: 1.5em;
+    margin-bottom: 1em; /* Adjust margin */
+    text-align: center; /* Center align */
 }
 
-.tagline {
-    font-size: 1.5em;
+h3 {
+    font-size: 1.2em; /* Decrease font size */
     font-weight: bold;
     color: #333;
-    margin-bottom: 1.5em;
+    margin-bottom: 1em; /* Adjust margin */
+    text-align: center; /* Center align */
 }
 
-.bio {
-    font-size: 1.2em;
-    margin-bottom: 1.5em;
-}
-
-.about-me {
-    font-size: 1.1em;
-    margin-top: 1.5em;
+h4 {
+    font-size: 1em; /* Decrease font size */
+    margin-bottom: 1em; /* Adjust margin */
+    text-align: center; /* Center align */
 }
 
 .circle.MainText {
