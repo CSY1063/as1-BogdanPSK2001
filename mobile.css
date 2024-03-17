@@ -3,7 +3,7 @@
     width: 1em;
     display: block;
     border-top: 0.2em solid white;
-    border-bottom: 0.2em solid white;
+    border-bottom: 0.2em solid white;                          
     align-items: center;
     transition: transform 0.3s ease-in; 
 }
@@ -20,7 +20,7 @@ body {
     grid-template-areas:
         "header"
         "nav"
-        "main"
+        "main"                                      /* Mobile grid layout */
         "aside"
         "footer";
 

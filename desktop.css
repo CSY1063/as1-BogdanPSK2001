@@ -5,7 +5,7 @@ body {
     grid-template-areas: "header header"
         "nav nav"
         "main main"
-        "aside aside"
+        "aside aside"           /* desktop layout */
         "footer footer";
     background-color: #C9DAEA;
     font-family: 'Montserrat', sans-serif;
@@ -15,7 +15,7 @@ aside {
     background-color: #C9DAEA;
     grid-area: aside;
     padding: 1em;
-    margin-top: 5em; /* Adjust this value as needed */
+    margin-top: 5em; 
 }
 
 a:hover {
@@ -49,9 +49,9 @@ nav ul ul {
     background-color: #00b295;
     padding: 0;
     width: 100%;
-    transform: translate(0, -100%);
+    transform: translate(0, -100%);       
     z-index: -1;
-    transition: transform 1s ease-in;
+    transition: transform 1s ease-in;                   /* Animation for dropdown in "more" */
     /* Note the property is transform not opacity */
 }
 
@@ -152,10 +152,12 @@ main {
 input[type="submit"]:hover {
     background-color: #00807e;
 }
+                                    /* Form optimisation for desktop */
+
 form {
     display: grid;
     gap: 1.5em;
-    margin: 2%;
+    margin: 2%;   
     padding: 0.2em;
     width: 70%; 
     margin: auto; 
@@ -236,7 +238,7 @@ a:hover {
  margin-right: 20vw;
  border: 1px solid black; 
  text-align: center; 
- column-gap: 1em;
+ column-gap: 1em;                                     /* Projects page desktop optimisation */
  row-gap: 1em;
  border-radius: 0.5em;
 }
