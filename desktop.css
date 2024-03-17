@@ -5,7 +5,7 @@ body {
     grid-template-areas: "header header"
         "nav nav"
         "main main"
-        "section section"
+        "aside aside"
         "footer footer";
     background-color: #C9DAEA;
     font-family: 'Montserrat', sans-serif;
@@ -200,4 +200,30 @@ label {
 
 textarea {
     resize: vertical; 
+}
+
+a {
+    color: #007bff;
+}
+
+a:hover {
+    color: red;
+}
+
+.contact-info {
+    margin-top: -25em; 
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: #333; 
+}
+
+.contact-info p {
+    margin-bottom: 0.5em;
+    font-weight: 500; 
+}
+
+.contact-info .gmail-logo {
+    width: 20px;
+    vertical-align: middle;
 }
