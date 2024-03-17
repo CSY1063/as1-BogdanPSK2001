@@ -357,3 +357,42 @@ footer {
 .project-item p {
     margin-bottom: 0; 
 }
+.hikingbitmoji {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+    margin-top: 10em;
+    margin-left: 1em;
+}
+
+.hikingbitmoji > img {
+    width: 10em; 
+    height: auto;
+}
+
+.text-section {
+    text-align: left;
+    max-width: 50em;
+    padding: 0 1em;
+    margin: 10em auto 2em; 
+    margin-bottom: 30em;
+    margin-top: -25em;
+}
+
+.text-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em; 
+    text-align: center;
+}
+
+.text-section p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
+
