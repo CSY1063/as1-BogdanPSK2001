@@ -329,17 +329,31 @@ footer {
 /* mobile project optimisation */
 
 .project {
+    display: grid;
     grid-template-columns: 1fr; 
-    margin-left: 5vw;
-    margin-right: 5vw; 
+    margin-left: 5vw; 
+    margin-right: 5vw;
+    border: 1px solid black; 
+    text-align: center; 
+    column-gap: 1em;
+    row-gap: 1em;
+    border-radius: 0.5em;
 }
 
 .project-item {
-    padding: 1em; 
-    margin-bottom: 1em; 
+    border: 1px solid black;
+    padding: 1.5em; 
+    margin-bottom: 1.5em; 
+    text-align: center; 
 }
 
 .project-item img {
-    margin-bottom: 0.5em; 
-    width: 40%;
+    max-width: 100%; 
+    height: auto;
+    display: block;
+    margin-bottom: 1em; 
+}
+
+.project-item p {
+    margin-bottom: 0; 
 }
