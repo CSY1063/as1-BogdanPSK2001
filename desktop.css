@@ -294,3 +294,17 @@ a:hover {
     font-size: 1.1em;
     margin-top: 4em;
 }
+.hikingbitmoji {
+    grid-area: main;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 2em;
+    margin-top: 3em; 
+}
+
+.hikingbitmoji > img {
+    width: 150px; 
+    height: auto;
+    margin-bottom: 1em; 
+}
