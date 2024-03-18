@@ -15,7 +15,7 @@
 body {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto auto auto 1fr auto;
+    grid-template-rows: auto auto 1fr auto; /* body for mobile */
     grid-template-areas:
         "header"
         "nav"
@@ -31,6 +31,8 @@ header {
     color: #C9DAEA;
     grid-area: header;
     padding: 1em;
+    width: 100%; 
+    left: auto; 
 }
 
 nav {
@@ -53,6 +55,7 @@ nav ul {
 nav ul li {
     margin-bottom: 1em;
     display: inline; 
+    display: block;
 }
 
 nav ul li a {
@@ -118,7 +121,7 @@ nav>ul>li {
 }
 
 .circle {
-    width: 10em;
+    width: 80%;
     height: 10em;
     margin-top: 3em;
     border-radius: 50%;
@@ -128,6 +131,7 @@ nav>ul>li {
     margin-left: 15%;
     margin-top: 0;
     flex-direction: column; 
+    margin: 0 auto;
 }
 
 @keyframes rotate {
@@ -148,6 +152,7 @@ nav>ul>li {
     left: 50%;
     right: 30%;
     animation: rotate 10s infinite linear;
+    max-width: 200px;
 }
 
 /* Optimizations for mobile devices */
