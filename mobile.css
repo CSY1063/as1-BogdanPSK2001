@@ -221,19 +221,14 @@ label {
 
 
 footer {
-    background-color: #191516;
-    color: #C9DAEA;
+    background-color: rgb(0, 0, 0);
+    color: white;
     grid-area: footer;
-    justify-content: space-between;
-    align-items: center;
-    padding: 3em; 
-    margin-top: auto; 
-}
-aside {
-    background-color: #C9DAEA;
-    grid-area: aside;
-    padding: 1em;
-    margin-top: 10em; 
+    text-align: center;
+    border-top: 0.1em solid rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    column-gap: 0.5em;
 }
 
 main {
