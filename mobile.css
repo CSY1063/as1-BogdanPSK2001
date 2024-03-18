@@ -10,7 +10,6 @@
 
 .showNav:target {
     transform: translate(0, -100%);
-
 }
 
 body {
@@ -20,10 +19,9 @@ body {
     grid-template-areas:
         "header"
         "nav"
-        "main"                                      /* Mobile grid layout */
+        "main"
         "aside"
         "footer";
-
     background-color: #C9DAEA;
     font-family: 'Montserrat', sans-serif;
 }
@@ -118,6 +116,7 @@ nav>ul>li {
     position: relative;
     width: 100%;
 }
+
 .circle {
     width: 10em;
     height: 10em;
@@ -150,247 +149,57 @@ nav>ul>li {
     right: 30%;
     animation: rotate 10s infinite linear;
 }
-main {
-    grid-area: main;
-    display: flex;
-    background-color: #C9DAEA;
-    color: #191516;
-    padding: 20% 17%;
-    height: 80vh;
-    width: 90%;
-}
 
-/* code for forms */
+/* Optimizations for mobile devices */
 
-
-
-input[type="submit"]:hover {
-    background-color: #008077; 
-}
-
-
-label {
-    display: block;
-    font-weight: bold;
-    padding: 0.5em;
-    text-align: left; 
-}
-
-
-
-h1 {
-    max-width: 90%; /* Adjust width for smaller screens */
-    margin: auto;
-    padding: 1.25em; 
-    text-align: center;
-    margin-top: 0; /* Remove negative margin-top */
-}
-
-h2 {
-    font-size: 1.5em; /* Decrease font size */
-    font-weight: bold;
-    color: #00b295;
-    margin-bottom: 1em; /* Adjust margin */
-    text-align: center; /* Center align */
-}
-
-h3 {
-    font-size: 1.2em; /* Decrease font size */
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 1em; /* Adjust margin */
-    text-align: center; /* Center align */
-}
-
-h4 {
-    font-size: 1em; /* Decrease font size */
-    margin-bottom: 1em; /* Adjust margin */
-    text-align: center; /* Center align */
-}
-
-.circle.MainText {
-    text-align: center;
-    margin-top: 2em;
-    width: 80%;
-    padding: 20% 20%;
-}
-footer {
-    background-color: #191516;
-    color: #C9DAEA;
-    grid-area: footer;
-    justify-content: space-between;
-    align-items: center;
-    padding: 3em; 
-    margin-top: 5em; 
-}
-aside {
-    background-color: #C9DAEA;
-    grid-area: aside;
-    padding: 1em;
-    margin-top: 10em; 
-}
-
-main {
-    grid-area: main;
-    display: flex;
-    background-color: #C9DAEA;
-    color: #191516;
-    padding: 20% 15%;
-    height: 30vh;
-    width: 80%;
-    margin-top: 30em;
-}
-form {
-    display: grid;
-    gap: 2em;
-    margin: 5% auto; 
-    padding: 1em;
-    width: 80%; 
-    max-width: 300px; 
-    margin-left: -20%;
-    margin-top: -190%; 
-}
-
-
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%; 
-    padding: 0.8em; 
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 1em; 
-}
-
-
-input[type="submit"] {
-    width: 100%; 
-    padding: 1em;
-    background-color: #00b295;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-input[type="submit"]:hover {
-    background-color: #008077;
-}
-
-
-label {
-    display: block;
-    font-weight: bold;
-    padding: 0.5em 0; 
+.text-section {
     text-align: left;
+    max-width: 90%;
+    margin: 5em auto;
 }
 
-
-textarea {
-    width: 100%; 
-    resize: vertical;
-}
-footer {
-    background-color: #191516;
-    color: #C9DAEA;
-    grid-area: footer;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em; 
-    margin-top: 8em; 
+.text-section p {
+    font-size: 0.9em;
 }
 
-
-.contact-info .gmail-logo {
-    width: 15px;
-    vertical-align: middle;
-}
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.main-content {
-    flex: 1; 
-}
-
-.contact-info {
+.hikingbitmoji {
+    position: relative;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-    color: #333; 
-    margin-top: 60em; 
-    margin-bottom: -100em; 
+    margin: 3em auto;
 }
-/* mobile project optimisation */
+
+.hikingbitmoji > img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.project-item img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 
 .project {
-    display: grid;
-    grid-template-columns: 1fr; 
-    margin-left: 5vw; 
-    margin-right: 5vw;
-    border: 1px solid black; 
-    text-align: center; 
-    column-gap: 1em;
-    row-gap: 1em;
-    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    margin: 3em auto;
 }
 
 .project-item {
     border: 1px solid black;
-    padding: 1.5em; 
-    margin-bottom: 1.5em; 
-    text-align: center; 
+    padding: 1em;
+    margin: 1em 0;
 }
 
-.project-item img {
-    max-width: 100%; 
-    height: auto;
-    display: block;
-    margin-bottom: 1em; 
-}
-
-.project-item p {
-    margin-bottom: 0; 
-}
-.hikingbitmoji {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    justify-content: center;
+footer {
+    background-color: #191516;
+    color: #C9DAEA;
+    grid-area: footer;
+    justify-content: space-between;
     align-items: center;
-    padding: 2em 0;
-    margin-top: 10em;
-    margin-left: 1em;
+    padding: 1em;
+    margin-top: 8em;
 }
-
-.hikingbitmoji > img {
-    width: 10em; 
-    height: auto;
-}
-
-.text-section {
-    text-align: left;
-    max-width: 50em;
-    padding: 0 1em;
-    margin: 10em auto 2em; 
-    margin-bottom: 30em;
-    margin-top: -25em;
-}
-
-.text-section h2 {
-    font-size: 1.5em;
-    margin-bottom: 1em; 
-    text-align: center;
-}
-
-.text-section p {
-    font-size: 1em;
-    line-height: 1.5;
-    margin-bottom: 1em;
-}
-
